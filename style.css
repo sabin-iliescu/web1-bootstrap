@@ -1,0 +1,125 @@
+.container {
+    border: 1px solid purple;
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  .bullet-container span{
+    display: block;
+    color: red;
+    line-height: 25px;
+    text-indent: 10px;
+  }
+  
+  .bullet-container {
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .square {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .bullet-container span:nth-of-type(2) .square {
+    background-color: red;
+    top: 36px;
+  }
+  
+  .bullet-container span:nth-of-type(3) .square {
+    background-color: green;
+    top: 61px;
+  }
+  
+  .linkul-nostru:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+  }
+
+  #text-formating p:first-child {
+    background-color: slategrey;
+    padding: 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+}
+
+    .paragraf-mic {
+        height: 50px;
+        background: green;
+        text-align: center;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 200px;
+    height: 200px; 
+    background-color: blue;
+	/* width and height can be anything, as long as they're equal */
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+
+
+  .cilindru .cerc-sus, .cilindru .cerc-jos {
+    border-radius: 50%;
+	width: 200px;
+    height: 200px; 
+    background-color: blue;
+    /* width and height can be anything, as long as they're equal */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .cilindru .cerc-jos {
+    background-color: red;
+    top: 400px;
+  }
+
+  .cilindru .dreptunghi {
+    width: 200px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    top:100px;
+  }
+
+  .cilindru {
+      position: relative;
+      display: block;
+      width: 200px;
+  }
+
+  .ellipsed-paragraf {
+    width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tabel {
+      display: block;
+      width: 600px;
+      height: 300px;
+  }
+
+  .unu, .doi, .trei{
+    height: 200px;
+    width: 32%;
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+
+  }
